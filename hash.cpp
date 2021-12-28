@@ -76,7 +76,7 @@ int main()
 	int num=1024;
 	for(int i=10; i<28; ++i){
 		int n;
-		Hash h(num+1);
+		Hash h(num);
 		int *array = new int[num];
 		clock_t tinsert;
 		tinsert = clock();
